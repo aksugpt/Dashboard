@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Dash Board</title>
+</head>
+<body>
+    <!-- menu block contains haeder sections -->
+    <div class="container-box d-flex">
+        <div class="block-menu" id="block">
+           <div class="d-flex justify-content-between align-items-center  block-header ">
+              <div class="status-icon">
+                <img class="logo-icon" src="icon.jpg" alt="img-responsive">
+                <div class="circle"></div>
+              </div>  
+                 <ul class="block-icon d-flex justify-content-between mt-0">
+                    <li class="block-icon-item">
+                       <a class="block-icon-link" href="#"><i class="fas fa-home"></i></a>
+                    </li>
+                   <li class="block-icon-item">
+                       <a class="block-icon-link" href="#"><i class="fas fa-search"></i></a>
+                   </li>
+                   <li class="block-icon-item">
+                       <a class="block-icon-link" href="#"><i class="fab fa-internet-explorer"></i></a>
+                   </li>
+                   <li class="block-icon-item">
+                       <a class="block-icon-link" href="#"><i class="fas fa-list"></i></a>
+                   </li>
+                   <li class="block-icon-item">
+                       <a class="block-icon-link" href="#"><i class="fas fa-edit"></i></a>
+                   </li>
+               </ul>
+           </div>
+
+ <div class="none" >
+<!-- unread message section -->
+<div class="unread-block">
+    <h6 class=" mt-3 heading-unread">Unread</h6>
+</div>
+
+<!-- image-icon and short message block -->
+                <div class="d-flex align-items-center  p-3">
+               
+                      <img  class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+                      
+                      <a class="message-link" href="#">   <p class="para-block mb-0"><i class="fas fa-asterisk "></i> general</p>
+                      </a> 
+
+                </div>
+<!-- Discussion sections -->
+<div class="discussions">
+    <h6 class="heading-unread mt-1">Discussions</h6>
+        <div class="discussion-space"></div>
+</div>
+<!-- Channel sections -->
+<div class="channel">
+    <h6 class="channel-block heading-unread">Channels</h6>
+    <p class="para-unread">You aren't part of any channels</p>
+</div>
+
+<div class="private-group">
+    <h6 class="heading-unread">Private Group</h6>
+    <div class="d-flex align-items-center private-block p-3">
+        <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+        <a class="message-link" href="#"><p class="private-block-para mb-0"><i class="fas fa-lock icon-part"></i>Frontend</p></a>
+</div>
+
+</div>
+<!-- direct messages sections -->
+<div class="direct-message">
+    <div>
+        <h6 class="heading-unread">Direct Messages</h6>
+    </div>
+
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle">
+
+       </div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: lawngreen;">
+
+       </div>
+       <a class="message-link" href="#"> <p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: yellow;">
+
+       </div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: darkgray;">
+
+       </div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: lawngreen;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: lawngreen;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: yellow;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: yellow;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: darkgray;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: darkgray;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: lawngreen;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: yellow;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: darkgray;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: darkgray;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: yellow;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+   <div class="d-flex align-items-center pl-3 pb-1">
+       <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+       <div class="empty-circle" style="background-color: lawngreen;"></div>
+       <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+       
+   </div>
+
+</div>
+
+ </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+<!--contain box which contain menu box information  -->
+        <div class="contain-box">
+             
+                <button class="ham_burger" type="button">
+                    <div class="ham_burger_icon"></div>
+                    <div class="ham_burger_icon"></div>
+                    <div class="ham_burger_icon"></div>
+                </button>
+            
+           <div class="d-flex justify-content-between align-items-center contain-box-header">
+            <div class="d-flex align-items-center conatin-box-header__elem">
+               <span><i class="far fa-star icon-star"></i></span> 
+                <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+                <div class="d-flex flex-column  header-block-textarea">
+                    <a class="message-link" href="#"><p class="private-block-para mb-0">Aksu Gupta-98xxxxxxxx</p></a>
+                    <div class="box-header__head d-flex align-items-center">
+                        <div class="circle-off">
+
+                        </div>
+                        <p class="header-block-para mb-0">offline</p>
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+            <div class="header-icon">
+                <div class="header-icon-content">
+                    <ul class="d-flex header-icon-list m-0">
+                        <li class="pl-2 pr-2">
+                            <a class="header-icon-link" href="#"><i class="fas fa-phone"></i></a>
+                        </li>
+                        <li class="pl-2 pr-2">
+                            <a class="header-icon-link" href="#"><i class="fas fa-comments"></i></a>
+                        </li>
+                        <li class="pl-2 pr-2">
+                            <a class="header-icon-link" href="#"><i class="fas fa-sms"></i></a>
+                        </li>
+                        <li class="pl-2 pr-2">
+                            <a class="header-icon-link" href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                        <li class="pl-2 pr-2">
+                            <a class="header-icon-link" href="#"><i class="far fa-user"></i></a>
+                        </li>
+                        <li class="pl-2 pr-2">
+                            <a class="header-icon-link" href="#"><i class="fas fa-paperclip"></i></a>
+                        </li>
+                        <li class="pl-2 pr-2">
+                            <a class="header-icon-link" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+ 
+            </div>
+           </div>
+
+
+ <!-- you have joined a new direct message -->
+             <div class=" message-block">
+                 <div class="d-flex justify-content-center head-image">
+                      <img class="image-icon-block" src="aimg.jpg" alt="img-responsive">
+
+                 </div>
+                 <div class="d-flex justify-content-center  head-text">
+                     <h4 class="head-text__heading">You have joined a new direct message</h4>
+
+                 </div>
+                 <div class="d-flex justify-content-center  head-name">
+                     <p class="">Aksu</p>
+
+                 </div>
+                 
+
+              </div>
+              
+
+<!--clipboard  -->
+                  <div class="d-flex flex-column justify-content-between clipboard">
+                    
+                     <div class="d-flex align-items-center p-4 clipboard__head-image">
+                        <div class="clipboard__head-image--date">
+                            <h6 class="clipboard__head-image--date__head-image--date-picker">febuary 8,2021</h6>
+          
+                        </div>
+                        <img class="clipboard__head-image--image-icon" src="aimg.jpg" alt="img-responsive">
+                        <p class="text-dark mb-0 clipboard__head-image--para">Aksu Gupta-98xxxxxxxx @aksu.ac</p>
+                    </div> 
+
+                    <div class="d-flex align-items-center p-4 clipboard__head-image">
+                        <div class="clipboard__head-image--date">
+                            <h6 class="clipboard__head-image--date__head-image--date-picker">febuary 8,2021</h6>
+          
+                        </div>
+                        <img class="clipboard__head-image--image-icon" src="aimg.jpg" alt="img-responsive">
+                        <p class="text-dark mb-0 clipboard__head-image--para">Aksu Gupta-98xxxxxxxx @aksu.ac</p>
+                    </div>
+
+                    <div class="d-flex align-items-center p-4 clipboard__head-image">
+                        <div class="clipboard__head-image--date">
+                            <h6 class="clipboard__head-image--date__head-image--date-picker">febuary 8,2021</h6>
+          
+                        </div>
+                        <img class="clipboard__head-image--image-icon" src="aimg.jpg" alt="img-responsive">
+                        <p class="text-dark mb-0 clipboard__head-image--para">Aksu Gupta-98xxxxxxxx @aksu.ac</p>
+                    </div>
+
+                    <div class="d-flex align-items-center p-4 clipboard__head-image">
+                        <div class="clipboard__head-image--date">
+                            <h6 class="clipboard__head-image--date__head-image--date-picker">febuary 8,2021</h6>
+          
+                        </div>
+                        <img class="clipboard__head-image--image-icon" src="aimg.jpg" alt="img-responsive">
+                        <p class="text-dark mb-0 clipboard__head-image--para">Aksu Gupta-98xxxxxxxx @aksu.ac</p>
+                    </div>
+
+                    <div class="d-flex align-items-center p-4 clipboard__head-image">
+                        <div class="clipboard__head-image--date">
+                            <h6 class="clipboard__head-image--date__head-image--date-picker">febuary 8,2021</h6>
+          
+                        </div>
+                        <img class="clipboard__head-image--image-icon" src="aimg.jpg" alt="img-responsive">
+                        <p class="text-dark mb-0 clipboard__head-image--para">Aksu Gupta-98xxxxxxxx @aksu.ac</p>
+                    </div>
+
+
+                    <div class="d-flex align-items-center p-4 clipboard__head-image">
+                        <div class="clipboard__head-image--date">
+                            <h6 class="clipboard__head-image--date__head-image--date-picker">febuary 8,2021</h6>
+          
+                        </div>
+                        <img class="clipboard__head-image--image-icon" src="aimg.jpg" alt="img-responsive">
+                        <p class="text-dark mb-0 clipboard__head-image--para">Aksu Gupta-98xxxxxxxx @aksu.ac</p>
+                    </div>
+
+
+
+
+
+
+                     
+
+                   
+                   
+
+                  </div>
+
+                     <!-- footer part -->
+                   <div class="clipboard-footer  p-1">
+                       
+                    <input class="  text-box" type="text" name="text" placeholder="message">
+                   <a href="#"> <i class="far fa-smile icon-front"></i></a>
+
+                   <a href="#"><i class="fas fa-microphone icon-micro"></i></a>
+                  <a href="#"><i class="fas fa-plus icon-plus"></i></a> 
+
+                </div>
+
+        </div>
+
+        
+        
+
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function(){
+           $(".ham_burger").click(function(){
+               $("#block").toggleClass("block-menu__menu")
+           });
+    });
+</script>
+
+</body>
+</html>
